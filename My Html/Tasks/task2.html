@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, 
+    initial-scale=1.0">
+    <title>CSS Prefarance</title>
+    <link href="./task2.css" 
+    rel="stylesheet"/>
+
+    <!-- Internal style -->
+    <style>
+
+        /* ID <= class <= element */
+        /* prefarance: Inline Style <= Internal Style <= External Style */
+
+
+        /* element selctor */
+        h1{
+            background-color: cadetblue;
+        }
+        /* class selctor */
+        .myclass{
+            background-color: crimson;
+        }
+        /* ID selector */
+        #myId{
+            background-color: chocolate;
+        }
+
+        /* internal style */
+        p{
+            color: chartreuse;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="myId" class="myclass">Hello, Good Morning </h1>
+    <p style="color: darkgreen;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, eaque in incidunt nihil illo laudantium nisi animi minus illum explicabo reprehenderit minima. Rem quis inventore eligendi vero possimus aut ea?</p>
+    <hr/>
+    
+    <!-- main division -->
+<div class="container"> 
+    <h1 style="background-color: rgb(41, 146, 146);">First Heading</h1>
+    <button style="background-color: rgb(174, 187, 161);">click</button>
+    <div style="background-color: rgb(127, 127, 183);">This is division</div>
+    <span style="background-color: rgb(223, 153, 190);">This is span</span>
+</div>
+    
+</body>
+</html>

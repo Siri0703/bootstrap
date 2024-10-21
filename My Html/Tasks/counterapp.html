@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, 
+    initial-scale=1.0">
+    <title>Counter App</title>
+    <style>
+        .container{
+            background-color: aquamarine;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100vh;
+        }
+        .content{
+            border: 5px solid grey;
+            padding: 20px;
+            background-color: rgb(191, 20, 146);
+            border-radius: 10%;
+            width: 30%;
+        }
+        span{
+            font-size: 4rem;
+            font-weight: 700;
+        }
+        .buttonsdiv{
+            margin: 10px;
+        }
+        button{
+            color: chartreuse;
+
+        }
+        #Subtract{
+            background-color: rgb(220, 22, 138);
+            color:rgb(113, 38, 182);
+            padding: 5px;
+            font-weight: 700;
+        }
+        #Reset{
+            background-color: rgb(165, 59, 20);
+            color: rgb(28, 28, 127);
+            padding: 5px;
+            font-weight: 700;
+        }
+        #Add{
+            background-color: rgb(144, 210, 30);
+            color: cornflowerblue;
+            padding: 5px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="content">
+            <h1>Counter App</h1>
+            <span id="CounterValue">0</span>
+            <hr/>
+        <div class="buttonsdiv">
+            <button id="subtract">Subtract</button>       
+            <button id="Reset">Reset</button>
+            <button id="Add">Add</button>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
+            

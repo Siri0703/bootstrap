@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, 
+    initial-scale=1.0">
+    <title>Flex File</title>
+    <style>
+        .container{
+            display: flex;
+            /* flex-direction:column; */
+            background-color: aqua;
+            /* justify-content: flex-start; */
+            height: 500px;;
+            width: auto;
+            /* justify-content: flex-end; */
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+
+
+            /* align-items: center; */
+            /* align-items: flex-end; */
+
+        }
+        .box{
+            background-color: pink;
+        }
+        span{
+            background-color: blue;
+        }
+        .box-one{
+            height: 50px;
+            width: 50px;
+            background-color: brown;
+            text-align: center;
+            margin:5px;
+            order: 4;
+        }
+        .box-two{
+            height: 80px;
+            width: 80px;
+            background-color: yellow;
+            text-align: center;
+            margin:5px;
+            order: 3;
+        }
+        .box-three{
+            height: 100px;
+            width: 100px;
+            background-color: green;
+            text-align: center;
+            margin:5px;
+            order:1;
+        }
+        span{
+            order: 2;
+        }
+        </style>
+        </head>
+<body>
+    <div class="container">
+        <div class="Box box-one">1</div>
+        <div class="Box box-two">2</div>
+        <div class="Box box-three">3</div>
+        <span>Hello span</span>
+    </div>
+    
+</body>
+</html>
